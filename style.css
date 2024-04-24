@@ -1,12 +1,23 @@
 body {
     font-family: "Helvetica", Sans-Serif;
     background-color: #E166E8;
+    color: black;
+    width: 80%;
+    margin: auto;
+
 }
 h1{
+    background-color: black;
+    color: white;   
     font-size: 1.8rem;
+    line-height: 1em;
 }
 h2{
+    background-color: black;
+    color: white;
+    text-align: left;
     font-size: 1.4rem;
+    line-height: 3em;
 }
 h3{
     font-size: 1.2rem;
@@ -16,13 +27,45 @@ abbr {
 }
 
 .intro{
-    text-align: right; /* Alinhamento à direita */
-    margin-bottom: 20px; /* Espaçamento abaixo */
+    
+    color: white;
+    height: 550px;
+    font-variant: normal;
+    text-align: right;
+    margin-bottom: 20px;
 }
 .main {
-    text-align: center; /* Alinhamento centralizado */
-    line-height: 1.5; /* Espaçamento entre as linhas */
+    text-align: center; 
+    line-height: 1.5; 
 }
+.explanation{
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+}
+.sidebar{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    line-height: 1em;
+    font-size: 1em;  
+    margin: 4%;
+}
+li {
+    list-style-type: none;
+    line-height: 1.4em;
+  }
+  
+  footer{
+    margin: 4%;
+    font-size: 0.5em;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+  }
 
 * {
     margin: 0;
