@@ -1,0 +1,31 @@
+body {
+    font-family: "Helvetica", Sans-Serif;
+    background-color: #E166E8;
+}
+h1{
+    font-size: 1.8rem;
+}
+h2{
+    font-size: 1.4rem;
+}
+h3{
+    font-size: 1.2rem;
+}
+abbr {
+    font-variant: small-caps;
+}
+
+.intro{
+    text-align: right; /* Alinhamento à direita */
+    margin-bottom: 20px; /* Espaçamento abaixo */
+}
+.main {
+    text-align: center; /* Alinhamento centralizado */
+    line-height: 1.5; /* Espaçamento entre as linhas */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
